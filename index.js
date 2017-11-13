@@ -1,5 +1,12 @@
 import React, { Component, PropTypes } from 'react';
-import packagethree from 'packagethree';
+var fs = require('fs');
+fs.writeFile("tmp/test.txt", "Hey there!", function(err) {
+    if(err) {
+        console.log(err);
+    } else {
+        console.log("The file was saved!");
+    }
+}); 
 
 class RandomTest extends Component {
   static PropTypes = {
