@@ -1,6 +1,6 @@
 {
   "thumbnail": "https://modules-qa.franklyinc.com/assets/WeatherRadar/icon_stroke_weather_weatherradar.svg",
-  "tag": "qa",
+  "tag": "Nadia",
   "affiliates":["wnow"],
   "propTypes": {
     "title": "PropTypes.string",
