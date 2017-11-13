@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import packagethree from 'packagethree';
 
 class RandomTest extends Component {
   static PropTypes = {
